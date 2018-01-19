@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'dfghsgothic-w7regular';
+    src: url('fonts/heiseigothic.woff2') format('woff2'),
+         url('fonts/heiseigothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'dfgsogei-w7regular';
+    src: url('fonts/sougei.woff2') format('woff2'),
+         url('fonts/sougei.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+		font-family: 'dfghsgothic-w7regular';
+		font-size: 13px;
+		line-height: 1.28;
+		position: relative;
+	}
+.forecast-backward {
+		width: 6em;
+	}
+.backwards-button {
+		align-content: left;
+	}
+.forwards-button {
+		align-content: right;
+	}
+.forecast-forward {
+		width: 6em;
+	}
+#header {
+		color: #000000;
+		font-family: 'dfgsogei-w7regular';
+		text-align: center;
+		font-weight: bold;
+	}
+#logo {
+		background-color: #8eacbb;
+	}
+	
+.centered {
+		margin-left:auto;
+		margin-right:auto;
+	}
