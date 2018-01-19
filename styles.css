@@ -13,7 +13,7 @@
     font-weight: normal;
     font-style: normal;
 }
-body {
+body,pre {
 		font-family: 'dfghsgothic-w7regular';
 		font-size: 13px;
 		line-height: 1.28;
