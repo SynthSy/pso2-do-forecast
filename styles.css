@@ -19,9 +19,9 @@ pre, pre code, h1 {
 		line-height: 1.28;
 		position: relative;
 	}
-h1 {
+.h1, h1 {
 		font-family: 'dfgsogei-w7regular';
-		position: relative;
+		font-size: 36px;
 	}
 .forecast-backward {
 		width: 6em;
