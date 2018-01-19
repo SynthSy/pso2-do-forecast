@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'dfghsgothic-w7regular';
+    src: url('fonts/heiseigothic.woff2') format('woff2'),
+         url('fonts/heiseigothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'dfgsogei-w7regular';
+    src: url('fonts/sougei.woff2') format('woff2'),
+         url('fonts/sougei.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+		background-color: #808e95;
+		font-family: 'dfghsgothic-w7regular';
+		color: #798896;
+		font-size: 13px;
+		line-height: 1.28;
+		position: relative;
+	}
+.forecast-backward {
+		width: 6em;
+	}
+.backwards-button {
+		align-content: left;
+	}
+.forwards-button {
+		align-content: right;
+	}
+.forecast-forward {
+		width: 6em;
+	}
+pre {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		overflow: auto;
+		overflow-y: hidden;
+		font-size: 12px;
+		line-height: 20px;
+		background-color: #808e95;
+		border: 0px solid #777;
+		font-family: 'Roboto', sans-serif;
+		color: #000000;
+	}
+pre code {
+		padding: 10px;
+		color: #000000;
+	}
+	
+#header {
+		color: #000000;
+		font-family: 'dfgsogei-w7regular';
+		text-align: center;
+		font-weight: bold;
+	}
+#logo {
+		background-color: #8eacbb;
+	}
+	
+.centered {
+		margin-left:auto;
+		margin-right:auto;
+	}
